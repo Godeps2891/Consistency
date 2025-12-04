@@ -1,6 +1,7 @@
 {
     "parent": "item/template/door",
     "textures": {
+    "particle": "block/acacia_door_bottom",
         "top": "block/acacia_door_top",
         "bottom": "block/acacia_door_bottom"
     }

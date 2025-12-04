@@ -1,7 +1,7 @@
 {
     "parent": "item/template/chest_boat",
     "textures": {
-        "boat": "entity/boat/spruce",
-        "chest": "entity/chest/normal"
+    "particle": "entity/chest_boat/spruce",
+        "boat": "entity/chest_boat/spruce"
     }
 }

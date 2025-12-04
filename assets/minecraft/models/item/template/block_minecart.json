@@ -1,5 +1,5 @@
 {
-    "parent": "item/orientation/minecart",
+    "parent": "item/template/minecart",
     "elements": [
         {   "from": [ -2, 0, 0 ],
             "to": [ 18, 2, 16 ],

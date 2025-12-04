@@ -1,6 +1,7 @@
 {
     "parent": "item/template/pane",
     "textures": {
+    "particle": "block/cyan_stained_glass",
         "edge": "block/cyan_stained_glass_pane_top",
         "pane": "block/cyan_stained_glass"
     }

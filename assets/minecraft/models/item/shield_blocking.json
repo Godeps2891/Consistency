@@ -1,10 +1,13 @@
 {
-    "parent": "builtin/entity",
+    "gui_light": "front",
+    "textures": {
+        "particle": "block/dark_oak_planks"
+    },
     "display": {
         "gui": {
-            "rotation": [ 30, -45, 0 ],
-            "translation": [ 0, 1.15, 0 ],
-            "scale":[ 0.625, 0.625, 0.625 ]
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 6, 4.7, 0 ],
+            "scale":[ 0.62, 0.62, 0.62 ]
         },
         "thirdperson_righthand": {
             "rotation": [ 45, 135, 0 ],

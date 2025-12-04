@@ -1,6 +1,52 @@
 {
-    "parent": "item/template/painting",
+    "gui_light": "front",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.275, 0.275, 0.275 ]
+        },
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, -5.5 ],
+            "scale": [ 1.2, 1.2, 1.2 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 135, 0 ],
+            "translation": [ -1.45, -0.115, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0.5, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
+    "elements": [
+        {   "from": [ 0, 0, 7.5 ],
+            "to": [ 16, 16, 8.5 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 1 ], "texture": "#frame", "rotation": 180 },
+                "up":    { "uv": [ 0, 0, 16, 1 ], "texture": "#frame", "rotation": 180 },
+                "north": { "texture": "#painting" },
+                "south": { "texture": "#frame" },
+                "west":  { "uv": [ 0, 0, 1, 16 ], "texture": "#frame"},
+                "east":  { "uv": [ 0, 0, 1, 16 ], "texture": "#frame"}
+            }
+        }
+    ],
     "textures": {
+    "particle": "painting/back",
         "painting": "painting/aztec",
         "frame": "painting/back"
     }

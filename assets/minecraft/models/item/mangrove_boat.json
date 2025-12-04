@@ -1,6 +1,7 @@
 {
     "parent": "item/template/boat",
     "textures": {
+    "particle": "entity/boat/mangrove",
         "boat": "entity/boat/mangrove"
     }
 }

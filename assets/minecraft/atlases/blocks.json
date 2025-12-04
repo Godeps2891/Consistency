@@ -11,6 +11,11 @@
             "prefix": "entity/boat/"
         },
         {
+            "type": "directory",
+            "source": "entity/chest_boat",
+            "prefix": "entity/chest_boat/"
+        },
+        {
             "type": "single",
             "resource": "entity/minecart"
         },

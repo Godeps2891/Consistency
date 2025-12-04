@@ -1,6 +1,7 @@
 {
     "parent": "item/template/hanging_sign",
     "textures": {
+    "particle": "entity/signs/hanging/acacia",
         "sign": "entity/signs/hanging/acacia"
     }
 }

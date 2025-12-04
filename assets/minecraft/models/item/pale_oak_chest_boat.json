@@ -1,0 +1,7 @@
+{
+    "parent": "item/template/chest_boat",
+    "textures": {
+    "particle": "entity/chest_boat/pale_oak",
+        "boat": "entity/chest_boat/pale_oak"
+    }
+}

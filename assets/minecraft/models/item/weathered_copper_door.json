@@ -1,6 +1,7 @@
 {
     "parent": "item/template/door",
     "textures": {
+    "particle": "block/weathered_copper_door_bottom",
         "top": "block/weathered_copper_door_top",
         "bottom": "block/weathered_copper_door_bottom"
     }

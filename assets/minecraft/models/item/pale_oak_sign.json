@@ -1,0 +1,7 @@
+{
+    "parent": "item/template/sign",
+    "textures": {
+    "particle": "entity/signs/pale_oak",
+        "sign": "entity/signs/pale_oak"
+    }
+}

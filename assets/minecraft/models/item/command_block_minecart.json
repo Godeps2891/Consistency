@@ -1,5 +1,5 @@
 {
-    "parent": "item/template/command_block_minecart",
+    "parent": "item/template/block_minecart",
     "textures": {
         "minecart": "entity/minecart",
         "up": "block/command_block_side",

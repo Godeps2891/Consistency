@@ -1,11 +1,40 @@
 {
-    "parent": "item/template/sniffer_egg",
-    "textures": {
-        "egg_down": "block/sniffer_egg_not_cracked_bottom",
-        "egg_up": "block/sniffer_egg_not_cracked_top",
-        "egg_north": "block/sniffer_egg_not_cracked_north",
-        "egg_east": "block/sniffer_egg_not_cracked_east",
-        "egg_south": "block/sniffer_egg_not_cracked_south",
-        "egg_west": "block/sniffer_egg_not_cracked_west"
+	"parent": "block/sniffer_egg_not_cracked",
+    "display": {
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2, 0],
+            "scale":[ 1.25, 1.25, 1.25 ]
+        },
+        "gui": {
+            "rotation": [ 30, -225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 1 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 2.5, 1 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
     }
 }

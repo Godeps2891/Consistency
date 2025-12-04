@@ -1,6 +1,7 @@
 {
     "parent": "item/template/sign",
     "textures": {
+    "particle": "entity/signs/birch",
         "sign": "entity/signs/birch"
     }
 }

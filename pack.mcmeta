@@ -1,7 +1,54 @@
 {
-    "pack": {
-        "pack_format": 34,
-		"supported_formats": { "min_inclusive": 16, "max_inclusive": 34},
-        "description": "3D models for items\n§6Place dependencies above"
-    }
+  "pack": {
+    "description": {
+      "text": "3D Models for Items\n",
+      "color": "gold",
+      "extra": [
+        {
+          "text": "Place dependencies above",
+          "color": "gray"
+        }
+      ],
+      "hover_event": {
+        "action": "show_text",
+        "value": {
+          "text": "Made by\n",
+          "extra": [
+            {
+              "player": {
+                "id": [
+                  2086135352,
+                  775506255,
+                  -1815041964,
+                  302914469
+                ]
+              },
+              "extra": [
+                "Godeps\n"
+              ]
+            },
+            {
+              "player": {
+                "id": [
+                  1116632149,
+                  -1761718937,
+                  -1089169766,
+                  282583251
+                ]
+              },
+              "extra": [
+                {
+                  "text": "Tessaract"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+	"pack_format": 15,
+	"supported_formats": {"min_inclusive": 15, "max_inclusive": 64},
+    "min_format": 15,
+    "max_format": 75
+  }
 }

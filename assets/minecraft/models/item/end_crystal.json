@@ -1,6 +1,86 @@
 {
-    "parent": "item/template/end_crystal",
+	    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 45 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.425, 0.425, 0.425 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 45 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.2, 0.2, 0.2 ]
+        },
+        "head": {
+            "rotation": [ 90, 0, 45 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.91, 0.91, 0.91 ]
+        },
+        "fixed": {
+            "rotation": [ 45, 0, 45 ],
+            "translation": [ 0, 0, 1 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 45 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 75, 225, -45 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 45 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 225, -45 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "rotation": { "angle": -45, "axis": "z", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "down":  { "uv": [ 14, 4, 12, 8 ], "texture": "#crystal", "rotation": 180 },
+                "up":    { "uv": [ 10, 0, 12, 4 ], "texture": "#crystal" },
+                "north": { "uv": [ 14, 4, 16, 8 ], "texture": "#crystal" },
+                "south": { "uv": [ 10, 4, 12, 8 ], "texture": "#crystal" },
+                "west":  { "uv": [ 8, 4, 10, 8 ], "texture": "#crystal" },
+                "east":  { "uv": [ 12, 4, 14, 8 ], "texture": "#crystal" }
+            }
+        },
+        {   "from": [ -2, -2, -2 ],
+            "to": [ 18, 18, 18 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "down":  { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "up":    { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "north": { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "south": { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "west":  { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "east":  { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" }
+            }
+        },
+        {   "from": [ -3, -3, -3 ],
+            "to": [ 19, 19, 19 ],
+            "rotation": { "angle": 45, "axis": "x", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "down":  { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "up":    { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "north": { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "south": { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "west":  { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" },
+                "east":  { "uv": [ 0, 4, 2, 8 ], "texture": "#crystal" }
+            }
+        }
+    ],
     "textures": {
+    "particle": "entity/end_crystal/end_crystal",
         "crystal": "entity/end_crystal/end_crystal"
     }
 }

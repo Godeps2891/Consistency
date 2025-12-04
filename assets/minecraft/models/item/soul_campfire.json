@@ -1,8 +1,21 @@
 {
-    "parent": "item/template/campfire",
-    "textures": {
-        "log": "block/campfire_log",
-        "lit_log": "minecraft:block/soul_campfire_log_lit",
-        "fire": "minecraft:block/soul_campfire_fire"
+    "parent": "block/soul_campfire",
+    "gui_light": "front",
+	"display": {
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 14.4, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
     }
 }

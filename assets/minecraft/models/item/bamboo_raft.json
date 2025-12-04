@@ -1,6 +1,7 @@
 {
 	"parent": "item/template/raft",
-	"textures": {
+    "textures": {
+    "particle": "entity/boat/bamboo",
 		"boat": "entity/boat/bamboo"
 	}
 }

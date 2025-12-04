@@ -1,6 +1,7 @@
 {
     "parent": "item/template/item_frame",
     "textures": {
+		"particle": "block/item_frame",
         "back": "block/item_frame",
         "wood": "block/birch_planks"
     }
