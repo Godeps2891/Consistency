@@ -8,14 +8,14 @@ Originally created by [Tessaract on curseforge](https://www.curseforge.com/minec
 ### Modrinth
 Download links are hosted on [Modrinth](https://modrinth.com/resourcepack/consistency).
 ### Manual installation
-Navigate to the resourcepacks folder in your Minecraft 1.21.1 installation:
+Navigate to the resourcepacks folder in your Minecraft 1.20+ installation:
 
 ```
-$ git clone --single-branch --branch 1.21.1 https://github.com/Godeps2891/ConsistencyContinued
+$ git clone --single-branch --branch main https://github.com/Godeps2891/ConsistencyContinued
 ```
 
 To update to newer versions:
 
 ```
-$ git pull origin 1.21.1
+$ git pull origin main
 ```
