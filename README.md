@@ -1,6 +1,6 @@
 # Consistency
 A Minecraft resource pack that changes some item models from sprites into their block representation. Compatible with other texture packs, as long as they don't edit block/item models.
-Originally created by [shoveln on curseforge](https://www.curseforge.com/minecraft/texture-packs/consistency)
+Originally created by [Tessaract on curseforge](https://www.curseforge.com/minecraft/texture-packs/consistency)
 
 ![image](https://raw.githubusercontent.com/Godeps2891/ConsistencyContinued/webassets/showcase2.webp)
 
