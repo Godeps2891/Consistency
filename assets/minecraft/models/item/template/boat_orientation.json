@@ -21,6 +21,11 @@
             "translation": [ 0, 3, -2 ],
             "scale": [ 0.5, 0.5, 0.5 ]
         },
+        "on_shelf": {
+            "rotation": [ 0, -90, -135 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
         "thirdperson_righthand": {
             "rotation": [ 75, 225, -45 ],
             "translation": [ 2.92, 6.29, -1.25 ],

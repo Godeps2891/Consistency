@@ -16,6 +16,11 @@
             "translation": [ 0, 0, -5 ],
             "scale": [ 0.75, 0.75, 0.75 ]
         },
+        "on_shelf": {
+            "rotation": [ 90, 0, 0 ],
+            "translation": [ 0, 0, 5 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
         "head": {
             "rotation": [ 0, 0, 0 ],
             "translation": [ 0, 11.1, 0 ],
