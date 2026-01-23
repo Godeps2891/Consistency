@@ -49,6 +49,6 @@
 	"pack_format": 15,
 	"supported_formats": {"min_inclusive": 15, "max_inclusive": 64},
     "min_format": 15,
-    "max_format": 75
+    "max_format": 999
   }
 }
