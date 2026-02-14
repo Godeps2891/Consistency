@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:local_time",
+    "pattern": "dd-MM",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/christmas_chest_minecart"
+        },
+        "when": [
+          "24-12",
+          "25-12",
+          "26-12"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/chest_minecart"
+    }
+  }
+}
