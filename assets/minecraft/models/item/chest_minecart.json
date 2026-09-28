@@ -1,7 +1,7 @@
 {
     "parent": "item/template/minecart",
     "textures": {
-        "minecart": "entity/minecart",
+        "minecart": "entity/minecart/minecart",
         "chest": "entity/chest/normal"
     },
     "elements": [

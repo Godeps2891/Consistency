@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/birch",
-        "sign": "entity/signs/birch"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/birch_sign",
+    "particle": "block/birch_sign"
+  }
 }

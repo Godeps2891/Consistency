@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/dark_oak",
-        "sign": "entity/signs/dark_oak"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/dark_oak_sign",
+    "particle": "block/dark_oak_sign"
+  }
 }

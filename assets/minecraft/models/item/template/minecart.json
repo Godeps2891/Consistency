@@ -1,6 +1,6 @@
 {
     "textures": {
-    "particle": "entity/minecart"
+    "particle": "entity/minecart/minecart"
     },
 "display": {
         "gui": {

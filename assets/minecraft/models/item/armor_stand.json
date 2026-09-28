@@ -1,7 +1,7 @@
 {
     "textures": {
-    "particle": "entity/armorstand/wood",
-        "wood": "entity/armorstand/wood"
+    "particle": "entity/armorstand/armorstand",
+        "wood": "entity/armorstand/armorstand"
     },
     "display": {
         "head": {

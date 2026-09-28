@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/acacia",
-        "sign": "entity/signs/acacia"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/acacia_sign",
+    "particle": "block/acacia_sign"
+  }
 }

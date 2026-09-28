@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/hanging_sign",
-    "textures": {
-    "particle": "entity/signs/hanging/warped",
-        "sign": "entity/signs/hanging/warped"
-    }
+  "parent": "item/template/hanging_sign",
+  "textures": {
+    "all": "block/warped_hanging_sign",
+    "particle": "block/warped_hanging_sign"
+  }
 }

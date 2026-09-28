@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/bamboo",
-        "sign": "entity/signs/bamboo"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/bamboo_sign",
+    "particle": "block/bamboo_sign"
+  }
 }

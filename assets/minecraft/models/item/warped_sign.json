@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/warped",
-        "sign": "entity/signs/warped"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/warped_sign",
+    "particle": "block/warped_sign"
+  }
 }

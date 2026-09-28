@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/hanging_sign",
-    "textures": {
-    "particle": "entity/signs/hanging/cherry",
-        "sign": "entity/signs/hanging/cherry"
-    }
+  "parent": "item/template/hanging_sign",
+  "textures": {
+    "all": "block/cherry_hanging_sign",
+    "particle": "block/cherry_hanging_sign"
+  }
 }

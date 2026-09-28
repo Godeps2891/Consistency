@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/mangrove",
-        "sign": "entity/signs/mangrove"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/mangrove_sign",
+    "particle": "block/mangrove_sign"
+  }
 }

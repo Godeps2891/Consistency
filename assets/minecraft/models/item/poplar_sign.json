@@ -1,0 +1,7 @@
+{
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/poplar_sign",
+    "particle": "block/poplar_sign"
+  }
+}

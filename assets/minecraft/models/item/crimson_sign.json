@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/crimson",
-        "sign": "entity/signs/crimson"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/crimson_sign",
+    "particle": "block/crimson_sign"
+  }
 }

@@ -1,7 +1,7 @@
 {
-    "parent": "item/template/sign",
-    "textures": {
-    "particle": "entity/signs/spruce",
-        "sign": "entity/signs/spruce"
-    }
+  "parent": "item/template/sign",
+  "textures": {
+    "all": "block/spruce_sign",
+    "particle": "block/spruce_sign"
+  }
 }

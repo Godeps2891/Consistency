@@ -1,0 +1,7 @@
+{
+  "parent": "item/template/hanging_sign",
+  "textures": {
+    "all": "block/poplar_hanging_sign",
+    "particle": "block/poplar_hanging_sign"
+  }
+}
